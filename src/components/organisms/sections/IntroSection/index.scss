@@ -1,0 +1,60 @@
+$image-path: "../../../../common/img/" !default;
+
+.lead * {
+  text-align: center !important;
+}
+
+.intro{
+  border-bottom: 4px solid #0f52ba;
+  border-right: 4px solid #0f52ba;
+  
+  //border-left: 4px solid #0f52ba;
+  background-color: #f5f5f5;
+  .DraftEditor-root{
+    h1{
+      div{
+        display: inline-block;
+      }
+  
+      &::after{
+        display: block;
+        font-size: 1rem;
+        font-weight: 400;
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        font-family: var(--mdb-font-roboto);
+        line-height: 1.6;
+        --mdb-gutter-x: 1.5rem;
+        --mdb-gutter-y: 0;
+        text-align: center !important;
+        box-sizing: border-box;
+        margin: 1rem 0;
+        color: inherit;
+        background-color: currentColor;
+        border: 0;
+        opacity: .25;
+        height: 1px;
+        content: "";
+      }
+    }
+  }
+  
+  .row{
+    width: 100%;
+
+    .col-features{
+      //height: 30vh;
+    }
+  }
+
+  .css-ic9qte-VerticalCircleWrapper::after{
+    height: 120% !important;
+  }
+}
+
+
+  /**
+   * SPDX-License-Identifier: (EUPL-1.2)
+   * Copyright © 2020 Werbeagentur Christian Aichner
+   */
+  

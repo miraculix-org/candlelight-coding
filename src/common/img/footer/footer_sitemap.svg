@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1800.76" height="1118.322" viewBox="0 0 1800.76 1118.322">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ebbd00"/>
+      <stop offset="0.084" stop-color="#ebb400"/>
+      <stop offset="1" stop-color="#ff8a00"/>
+    </radialGradient>
+  </defs>
+  <g id="Gruppe_197" data-name="Gruppe 197" transform="translate(0.037 28.709)">
+    <path id="Pfad_407" data-name="Pfad 407" d="M4948.847,2264.4h1800V2087.608c-760.877,119.508-1090.088-51.862-1800,42.508Z" transform="translate(-4948.847 -2089.259)" fill="#d17100" opacity="0.8"/>
+    <path id="Pfad_394" data-name="Pfad 394" d="M4948.847,2815.572h1800V2043.593c-981.856,128.528-1049.5-6.765-1799.991,96.285C4948.856,2362.422,4948.847,2815.572,4948.847,2815.572Z" transform="translate(-4948.847 -2072.301)" fill="#ffc96c" opacity="0.8"/>
+    <path id="Pfad_392" data-name="Pfad 392" d="M4948.81,3131.221h1800s.76-804.662.76-1048.756c-285.528,8.005-1183.45-36.15-1800.736,40.235C4948.833,2418.492,4948.81,3131.221,4948.81,3131.221Z" transform="translate(-4948.847 -2041.608)" fill="url(#radial-gradient)"/>
+  </g>
+</svg>

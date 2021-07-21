@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+              "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="17.0667in" height="17.0667in"
+     viewBox="0 0 1536 1536"
+     preserveAspectRatio="xMidYMid meet">
+
+    <style>
+      @keyframes fill-action {
+        0% {
+          transform: translate(0px, 100%);
+          // Where the animation rises from
+        }
+        100% {
+          transform: translate(-50%, 10%);
+          // How far from top it stops
+        }
+      }
+
+      @keyframes wave-action {
+        0% {
+          transform: translate(-50%, 10%);
+        }
+        100% {
+          transform: translate(50%, 10%);
+        }
+      }
+
+  </style>
+<style>
+      @keyframes fill-action {
+        0% {
+          transform: translate(0px, 100%);
+          // Where the animation rises from
+        }
+        100% {
+          transform: translate(-50%, 10%);
+          // How far from top it stops
+        }
+      }
+
+      @keyframes wave-action {
+        0% {
+          transform: translate(-50%, 10%);
+        }
+        100% {
+          transform: translate(50%, 10%);
+        }
+      }
+
+  </style>
+  <defs>
+    <mask id="heart-mask">
+      <path id="heart-shape"
+            fill="white"
+            d="M 1398.68,164.95
+              C 1475.38,258.47 1517.63,386.24 1517.63,524.72
+                1517.63,667.28 1470.39,797.76 1368.93,935.36
+                1278.17,1058.48 1147.73,1183.43 996.70,1328.11
+                945.10,1377.55 886.60,1433.59 825.89,1493.27
+                809.88,1509.04 789.29,1517.73 767.95,1517.73
+                746.61,1517.73 726.03,1509.04 709.99,1493.25
+                649.29,1433.58 590.82,1377.56 539.24,1328.15
+                388.19,1183.44 257.75,1058.48 166.99,935.38
+                65.54,797.76 18.28,667.28 18.28,524.73
+                18.28,386.24 60.52,258.47 137.21,164.95
+                214.83,70.32 321.34,18.20 437.12,18.20
+                523.67,18.20 602.93,48.96 672.70,109.61
+                707.92,140.23 739.84,177.70 767.95,221.41
+                796.08,177.69 827.99,140.23 863.20,109.61
+                932.98,48.96 1012.24,18.20 1098.79,18.20
+                1214.57,18.20 1321.07,70.32 1398.68,164.95
+                1398.68,164.95 1398.68,164.95 1398.68,164.95 Z
+              M 1398.68,164.95" />
+    </mask>
+    <filter id="dropshadow" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/> <!-- stdDeviation is how much to blur -->
+      <feOffset dx="2" dy="2" result="offsetblur"/> <!-- how much to offset -->
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.9"/> <!-- slope is the opacity of the shadow -->
+      </feComponentTransfer>
+      <feMerge> 
+        <feMergeNode/> <!-- this contains the offset blurred image -->
+        <feMergeNode in="SourceGraphic"/> <!-- this contains the element that the filter is applied to -->
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g mask="url(#heart-mask)">
+    <path id="wave-shape"
+          fill="rgb(15, 82, 186)"
+          style="animation: fill-action 3s, wave-action 3s linear 3s infinite;"
+          d="M -767.07,3318.78
+            C -767.07,3318.78 -767.07,211.90 -767.07,211.90
+              -715.91,216.06 -684.18,219.19 -684.18,219.19
+              -559.33,230.64 -375.13,237.93 -354.66,238.98
+              -338.29,237.93 -153.06,230.64 -27.19,219.19
+              -27.19,219.19 236.83,194.19 390.34,194.19
+              543.84,195.23 807.86,219.19 807.86,219.19
+              933.73,230.64 1114.87,237.93 1135.33,238.98
+              1151.71,237.93 1335.91,230.64 1461.78,219.19
+              1461.78,219.19 1723.76,194.19 1877.26,194.19
+              2030.77,195.23 2291.72,219.19 2291.72,219.19
+              2296.84,219.19 2302.98,220.23 2302.98,220.23
+              2302.98,220.23 2302.98,3318.78 2302.98,3318.78
+              2302.98,3318.78 -767.07,3318.78 -767.07,3318.78 Z" />
+  </g>
+</svg>

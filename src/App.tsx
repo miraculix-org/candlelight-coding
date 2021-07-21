@@ -11,11 +11,11 @@ import {CMSProvider} from '@snek-at/jaen'
 
 import '~/common/css/base.scss'
 
-import {HomePage} from './example/pages'
+import {HomePage} from './candle/pages'
 
 const App: React.FC = () => {
   return (
-    <div style={{margin: 150}}>
+    <div>
       <CMSProvider
         settings={{gitRemote: process.env.REACT_APP_JAEN_GIT_REMOTE}}
         pages={[HomePage]}></CMSProvider>

@@ -10,6 +10,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import {Provider} from 'react-redux'
+import {ParallaxProvider} from 'react-scroll-parallax'
 
 import App from './App'
 import {store} from './store'
@@ -17,7 +18,9 @@ import {store} from './store'
 ReactDOM.render(
   <Provider store={store}>
     <React.StrictMode>
-      <App />
+      <ParallaxProvider>
+        <App />
+      </ParallaxProvider>
     </React.StrictMode>
   </Provider>,
 
