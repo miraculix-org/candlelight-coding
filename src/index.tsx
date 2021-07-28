@@ -15,6 +15,12 @@ import {ParallaxProvider} from 'react-scroll-parallax'
 import App from './App'
 import {store} from './store'
 
+import CKFinder from "@ckeditor/ckeditor5-ckfinder/src/ckfinder"
+
+
+
+const shit = new CKFinder("")
+
 ReactDOM.render(
   <Provider store={store}>
     <React.StrictMode>
